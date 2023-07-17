@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <input class="input-city" placeholder="Digite o nome da cidade">
+        <button class="btn-find" onclick="clickFind()">
+            <img class="img-find" src="./img/lupa.png" alt="Buscar">
+        </button>
+        <div class="container-2">
+            <h2 class="city">Tempo em ...</h2>
+
+            <p class="temp">... °C</p>
+
+            <div class="icon-temp">
+                <img class="img-icon" src="https://openweathermap.org/img/wn/04n.png" alt="icon-tempo">
+                <p class="forecast">...</p>
+            </div>
+
+            <p class="humidity">Umidade: ...</p>
+        </div>
+        <div id="autor">
+            <a class="autor" href="https://www.instagram.com/eng.venturajr/" title="Ventura Jr" alt="Instagram" target="_blank">
+            <img width="15" height="15" src="./img/instagram.png"><h1>eng.venturajr</h1></a> 
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
